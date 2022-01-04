@@ -2,13 +2,10 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0px;
 }
-.top-banner {
-  background-image: url(/images/dream-bg.png);
-  background-repeat: no-repeat;
-}
 
-.container {
+section {
   display: flex;
+  margin-bottom: 100px;
 }
 .d-flex {
   width: 50%;
@@ -38,4 +35,17 @@ h1 {
   border-radius: 5px;
   font-weight: bold;
   cursor: pointer;
+}
+
+
+.top-banner {
+  background-image: url(/images/top-banner.png);
+  background-repeat: no-repeat;
+}
+
+/* second section area  */
+.dream-Big {
+  background-image: url(/images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
